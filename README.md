@@ -24,10 +24,7 @@ Certains prérequis sont nécessaires pour mettre en marche le bot :
 
 - Télécharger ollama: [https://ollama.com/](https://ollama.com/)
 - Lancer Llama2 avec :  `ollama run llama2`
-
-Ensuite :<br> 
-`curl https://ollama.ai/install.sh | sh`<br>
-`ollama serve`
+- (Optionel) Si un message d'erreur apparait, faire dans un autre terminal : `ollama serve` avant de lancer Llama 2
 
 installez les dépendances pythons : <br>
 `pip install -r requirements.txt`
