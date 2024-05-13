@@ -34,3 +34,12 @@ Enfin, renseignez le token du bot dans **config.json**
 ## Lancement 
 Lancez le bot avec la commande : 
 `python3 bot.py -c config.json`
+
+## Execution du code
+Lancement du bot via CLI :
+![Lancement du bot via CLI](images/CLI.png)
+
+Utilisation des commandes depuis un serveur Discord :
+![help command](images/help.png)
+![ping command](images/ping.png)
+![prompt command](images/prompt.png)
