@@ -1,5 +1,4 @@
 from argparse import ArgumentParser
-import var as tk
 import discord
 import logging
 import json
@@ -51,7 +50,7 @@ class MyClient(discord.Client):
         #print(f'Message from {message.author} in {message.channel}: {message.content}')
         logger.infolog(f'Message from {message.author} in {message.channel}: {message.content}')    
 
-        if message.cont == config["prefix"] + 'help':
+        if message.content == config["prefix"] + 'help':
             await message.channel.send('Hello! I am a bot. I can respond to the following commands:\n\n' + 
                 config["prefix"] + 'ping - I will respond with "Pong!"\n' +
                 config["prefix"] + 'prompt <message> - I will respond with a message generated using Llama2'
