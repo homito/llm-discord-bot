@@ -39,7 +39,7 @@ Lancez le bot avec la commande :
 Lancement du bot via CLI :
 ![Lancement du bot via CLI](images/CLI.png)
 
-Utilisation des commandes depuis un serveur Discord :
+Utilisation des commandes depuis un serveur Discord :<br>
 ![help command](images/help.png)
 ![ping command](images/ping.png)
 ![prompt command](images/prompt.png)
