@@ -2,10 +2,10 @@
 
 ## Réponse aux questions
 #### Qu’est-ce qu’un bot ?
-Un bot est un bot.
+Un robot, ou bot, est un ordinateur qui peut être programmé pour réaliser des tâches spécifiques, telles que répondre à des questions, fournir des informations, ou interagir avec les utilisateurs. Les bots peuvent être utilisés dans différentes applications, telles que les chats de messagerie, les assistants virtuels, ou les systèmes de recomposition d'information.
 
 #### Qu'est ce que le logging. À quoi servent les logs?
-le loggingest un truc de log. Utilisé notamment dans le milieu des bucherons.
+Le logging est la pratique de enregistrer des informations sur les activités d'un système informatique ou d'une application. Les logs sont utilisés pour surveiller et analyser les comportements du système, diagnostiquer des problèmes, suivre l'utilisation de l'application et améliorer sa performance.
 
 
 ## Fonctionnement du Bot
