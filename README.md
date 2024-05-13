@@ -36,7 +36,7 @@ Lancez le bot avec la commande :
 `python3 bot.py -c config.json`
 
 ## Execution du code
-Lancement du bot via CLI :
+Lancement du bot via CLI :<br>
 ![Lancement du bot via CLI](images/CLI.png)
 
 Utilisation des commandes depuis un serveur Discord :<br>
