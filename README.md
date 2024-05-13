@@ -5,7 +5,7 @@
 Un bot est un bot.
 
 #### Qu'est ce que le logging. À quoi servent les logs?
-le loggingest un truc de log. Utilisé Nottement dans le milieu des bucherons.
+le loggingest un truc de log. Utilisé notamment dans le milieu des bucherons.
 
 
 ## Fonctionnement du Bot
