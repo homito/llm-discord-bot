@@ -47,13 +47,12 @@ class MyClient(discord.Client):
         logger.infolog(f'Logged on as {self.user}!')
         
     async def on_message(self, message):
-        #print(f'Message from {message.author} in {message.channel}: {message.content}')
         logger.infolog(f'Message from {message.author} in {message.channel}: {message.content}')    
 
         if message.content == config["prefix"] + 'help':
             await message.channel.send('Hello! I am a bot. I can respond to the following commands:\n\n' + 
                 config["prefix"] + 'ping - I will respond with "Pong!"\n' +
-                config["prefix"] + 'prompt <message> - I will respond with a message generated using Llama2'
+                config["prefix"] + 'prompt <message> - I will respond with a message generated using ' + config["model"] 
             )
 
         if message.content == config["prefix"] + 'ping':
